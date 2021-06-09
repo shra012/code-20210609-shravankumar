@@ -81,4 +81,4 @@ docker run --name simple-vitals-calculator -p 8080:8080 -d shra012/simple-vitals
 
 ### Observations
 
-- Data set file path is hard coded in the `app.js`
+- Data set file path is hard coded in the `app.js` which makes test use the actual data set.
