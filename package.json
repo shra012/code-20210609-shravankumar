@@ -1,0 +1,19 @@
+{
+  "name": "code-20210608-shravankumarnagarajan",
+  "version": "1.0.0",
+  "description": "A simple BMI calculator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "author": "Shravankumar Nagarajan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4",
+    "supertest": "^6.1.3"
+  }
+}
