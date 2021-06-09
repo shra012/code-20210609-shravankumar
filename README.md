@@ -79,6 +79,12 @@ docker run --name ${container-name} -p 8080:8080 -d ${user-name}/${application-n
 docker run --name simple-vitals-calculator -p 8080:8080 -d shra012/simple-vitals-calculator:latest
 ```
 
+### CI Pipeline
+This application is built with github actions and published to docker hub as a image. CI has a two individual jobs "test" and "docker".
+
+- Test work flow runs npm tests on the current commit.
+- Docker work flow builds and publishes the docker image to docker hub under the tag shra012/simple-vitals-calculator:latest.
+
 ### Observations
 
 - Data set file path is hard coded in the `app.js` which makes test use the actual data set.
